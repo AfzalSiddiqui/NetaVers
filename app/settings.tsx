@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   },
   settingButtonText: {
     color: "#EAF0FF",
-    fontSize:  16,
+    fontSize: 16,
     fontWeight: "600",
   },
   settingButtonArrow: {
