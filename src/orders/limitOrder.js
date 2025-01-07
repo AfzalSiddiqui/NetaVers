@@ -1,1 +1,1 @@
-export function limitOrder(symbol, qty, price) { return { type: "LIMIT", symbol, qty, price }; }
+export function limitOrder(symbol, qty, price) { return { type: "LIMIT", symbol, qty, price, status: "PENDING" }; }
