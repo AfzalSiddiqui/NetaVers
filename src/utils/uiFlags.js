@@ -1,3 +1,4 @@
 export const uiFlags = {
-  darkMode: false
+  darkMode: false,
+  compactLayout: false
 };
