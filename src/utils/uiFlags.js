@@ -1,5 +1,5 @@
 export const uiFlags = {
-  darkMode: true,
+  darkMode: false,
   compactLayout: true,
   animationsEnabled: false
 };
