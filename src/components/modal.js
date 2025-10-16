@@ -1,0 +1,1 @@
+// enhance modal close animation
