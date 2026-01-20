@@ -74,12 +74,12 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>NetaVers</Text>
-      <Text style={styles.subtitle}>Curate your metaverse travel experiences.</Text>
+      <Text style={styles.subtitle}>Curate your metaverse interview spaces.</Text>
 
       <TextInput
         value={query}
         onChangeText={setQuery}
-        placeholder="Search world, vibe, layer, or tag…"
+        placeholder="Search room, role, difficulty, or tag…"
         placeholderTextColor="#91A0C6"
         style={styles.search}
         autoCapitalize="none"

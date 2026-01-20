@@ -1,12 +1,12 @@
 export type Verse = {
   id: string;
-  /** Display name of the metaverse destination */
+  /** Display name of the metaverse interview space */
   reference: string;
-  /** Short world / realm label, e.g. "Neo-Tokyo // Night Run" */
+  /** Scenario / track label, e.g. "FAANG Panel Room" or "VR Whiteboard" */
   version?: string;
-  /** Description of the travel experience */
+  /** Description of the interview environment and use case */
   text: string;
-  /** Mood, genre, access level, etc. */
+  /** Tags for role, difficulty, format (system design, coding, behavioral), etc. */
   tags?: string[];
 };
 

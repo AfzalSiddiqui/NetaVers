@@ -2,36 +2,36 @@ import type { Verse } from "../types/verse";
 
 export const verses: Verse[] = [
   {
-    id: "neo-tokyo-night-run",
-    reference: "Neo-Tokyo // Night Run",
-    version: "Cyberpunk City Layer",
-    tags: ["neon", "cityscape", "high-speed", "nightlife"],
+    id: "neo-tokyo-panel-room",
+    reference: "Neo-Tokyo Panel Room",
+    version: "System Design Arena",
+    tags: ["senior", "system-design", "backend", "panel"],
     text:
-      "Drop into a rain-soaked neon district suspended above an endless metropolis. Glide between holo-billboards, ride magnetic rail-lines, and explore back-alley clubs where avatars trade rare synth artifacts. Designed for fast-paced social hangs and cinematic screenshots."
+      "A high-contrast cyberpunk boardroom hovering over a living city. Multiple virtual whiteboards, node-link diagrams, and traffic simulators make this ideal for senior system design interviews and cross-functional panels in a high-energy setting."
   },
   {
-    id: "aurora-skyline-lounge",
-    reference: "Aurora Skyline Lounge",
-    version: "Cloud Lounge Tier",
-    tags: ["chill", "music", "sunset", "social"],
+    id: "aurora-1-1-lounge",
+    reference: "Aurora 1:1 Lounge",
+    version: "Behavioral Suite",
+    tags: ["behavioral", "1-1", "manager", "coaching"],
     text:
-      "Float above a sea of slow-moving clouds as auroras ripple across a permanent golden-hour sky. Curated lo-fi and deep house playlists, soft reactive lighting, and private sky pods make this ideal for relaxed meetups, interviews, or remote work sessions in the metaverse."
+      "Soft aurora skies and cloud seating tuned for low-anxiety conversations. Use this room for behavioral rounds, skip-level chats, and coaching sessions where body language, pacing, and psychological safety matter more than raw performance."
   },
   {
-    id: "coral-drift-reef",
-    reference: "Coral Drift Reef",
-    version: "Undersea Exploration Layer",
-    tags: ["underwater", "exploration", "nature", "photo-mode"],
+    id: "coral-live-coding-dome",
+    reference: "Coral Live-Coding Dome",
+    version: "Coding Session Space",
+    tags: ["live-coding", "pairing", "frontend", "algorithms"],
     text:
-      "Swim weightlessly through a luminous coral maze populated by procedurally animated sea life. Bubbles, light rays, and particle trails respond to your movement, turning every swim into a slow, meditative light show. Perfect for guided tours or solo exploration."
+      "A quiet undersea dome with floating code panels and shared cursors. Perfect for live-coding rounds, pair-programming exercises, and solving algorithm problems without the sterile feel of a plain IDE screen share."
   },
   {
-    id: "zen-fragment-garden",
-    reference: "Zen Fragment Garden",
-    version: "Low-Poly Retreat",
-    tags: ["mindfulness", "minimal", "focus", "ambient"],
+    id: "zen-offer-room",
+    reference: "Zen Offer Room",
+    version: "Decision Space",
+    tags: ["offer", "negotiation", "reflection", "debrief"],
     text:
-      "A minimalist island of hovering stone fragments, soft gradients, and generative wind chimes. Designed for breathing exercises, quick reset breaks, and private conversations away from crowded hubs. The world gently reconfigures itself over time, so it never feels the same twice."
+      "A minimalist island with calm gradients and structured prompts around you. Use this as a space for post-interview debriefs, offer discussions, and candidate reflection sessions where you slow down, review tradeoffs, and make intentional decisions."
   }
 ];
 
