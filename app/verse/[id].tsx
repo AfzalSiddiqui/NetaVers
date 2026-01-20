@@ -29,10 +29,10 @@ export default function VerseDetailScreen() {
   if (!verse) {
     return (
       <View style={styles.container}>
-        <Stack.Screen options={{ title: "Verse" }} />
+        <Stack.Screen options={{ title: "Destination" }} />
         <Text style={styles.title}>Not found</Text>
         <Text style={styles.subtle}>
-          We couldn’t find this verse. Go back and pick another one.
+          We couldn’t find this destination. Go back and pick another one.
         </Text>
       </View>
     );

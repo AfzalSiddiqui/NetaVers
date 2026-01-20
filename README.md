@@ -1,5 +1,5 @@
 # NetaVers
-React Native (Expo) app for browsing **multiple verses** (list + detail), with search and local favorites.
+React Native (Expo) app for a **metaverse interview platform** – browse virtual interview spaces (list + detail), search by role/difficulty, and save favorites locally.
 
 ## Run
 
@@ -19,10 +19,10 @@ Then scan the QR code with **Expo Go** (iOS/Android) or run on an emulator.
 
 ## What’s inside
 
-- **Home (List)**: search verses, open detail, favorite/unfavorite  
-- **Verse Detail**: view full verse and tags  
-- **Favorites persistence**: saved on-device using AsyncStorage
+ - **Home (List)**: explore metaverse interview rooms, search by room name, track, or tags, favorite/unfavorite  
+ - **Destination Detail**: see a full description and tags for each interview environment (role, format, difficulty, etc.)  
+ - **Favorites persistence**: saved on-device using AsyncStorage
 
-## Edit verse data
+## Edit destination data
 
 Update the sample dataset in `src/data/verses.ts`.
