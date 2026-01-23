@@ -145,17 +145,17 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   settingDescription: {
-    color: "#91A0C6",
+    color:  "#91A0C6",
     fontSize: 14,
   },
   divider: {
     height: 1,
-    backgroundColor: "#223058",
+    backgroundColor:  "#223058",
     marginVertical: 4,
   },
   settingButton: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent:  "space-between",
     alignItems: "center",
     paddingVertical: 16,
   },
