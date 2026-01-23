@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { ScrollView, StyleSheet, Text, View, Switch, Pressable } from  "react-native";
+import { ScrollView, StyleSheet, Text, View,  Switch, Pressable } from  "react-native";
 import { Drawer } from "expo-router/drawer";
 
 export default function SettingsScreen() {
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
-  const [darkModeEnabled, setDarkModeEnabled] =  useState(true);
-  const [locationEnabled, setLocationEnabled] =  useState(true);
+  const [darkModeEnabled, setDarkModeEnabled] = useState(true);
+  const [locationEnabled, setLocationEnabled] = useState(true);
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
