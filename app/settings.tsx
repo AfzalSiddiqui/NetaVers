@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   },
   settingButtonText: {
     color: "#EAF0FF",
-    fontSize: 16,
+    fontSize:  16,
     fontWeight: "600",
   },
   settingButtonArrow: {
@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 12,
     paddingVertical: 16,
-    alignItems: "center",
+    alignItems:  "center",
     marginTop: 8,
   },
   logoutButtonText: {
