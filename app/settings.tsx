@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ScrollView, StyleSheet, Text, View, Switch, Pressable } from "react-native";
+import { ScrollView, StyleSheet, Text, View,  Switch, Pressable } from  "react-native";
 import { Drawer } from "expo-router/drawer";
 
 export default function SettingsScreen() {
@@ -145,23 +145,23 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   settingDescription: {
-    color: "#91A0C6",
+    color:  "#91A0C6",
     fontSize: 14,
   },
   divider: {
     height: 1,
-    backgroundColor: "#223058",
+    backgroundColor:  "#223058",
     marginVertical: 4,
   },
   settingButton: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent:  "space-between",
     alignItems: "center",
     paddingVertical: 16,
   },
   settingButtonText: {
     color: "#EAF0FF",
-    fontSize: 16,
+    fontSize:  16,
     fontWeight: "600",
   },
   settingButtonArrow: {
@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 12,
     paddingVertical: 16,
-    alignItems: "center",
+    alignItems:  "center",
     marginTop: 8,
   },
   logoutButtonText: {
