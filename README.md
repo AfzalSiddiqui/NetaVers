@@ -15,7 +15,7 @@ npm install
 npm run start
 ```
 
-Then scan the QR code with **Expo Go** (iOS/Android) or run on an emulator.
+Then scan the QR code with **Expo Go**  (iOS/Android) or run  on an emulator.
 
 ## What’s inside
 
