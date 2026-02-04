@@ -1,13 +1,13 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const FAVORITES_KEY = "netavers:favorites:v1";
+const FAVORITES_KEY =  "netavers:favorites:v1";
 
 function parseIds(raw: string | null): Set<string> {
   if (!raw) return new Set();
   try {
     const arr = JSON.parse(raw) as unknown;
     if (!Array.isArray(arr)) return new Set();
-    return new Set(arr.filter((x): x is string => typeof x === "string"));
+    return new Set(arr.filter((x): x is string => typeof x ===  "string"));
   } catch {
     return new Set();
   }
