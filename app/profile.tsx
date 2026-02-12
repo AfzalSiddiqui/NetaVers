@@ -1,8 +1,8 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-import { Drawer } from "expo-router/drawer";
+import { Drawer } from  "expo-router/drawer";
 
-export default function ProfileScreen() {
+export default function  ProfileScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Drawer.Screen options={{ title: "Profile" }} />
