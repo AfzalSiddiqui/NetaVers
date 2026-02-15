@@ -1,13 +1,13 @@
 import { Link, Stack } from "expo-router";
 import React from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Pressable, StyleSheet, Text, View } from    "react-native";
 
 export default function NotFoundScreen() {
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: "Not Found" }} />
       <Text style={styles.title}>Page not found</Text>
-      <Text style={styles.subtle}>Go back to the verse list.</Text>
+      <Text style={styles.subtle}>Go back to the verse  list.</Text>
       <Link href="/" asChild>
         <Pressable style={styles.btn}>
           <Text style={styles.btnText}>Go Home</Text>
