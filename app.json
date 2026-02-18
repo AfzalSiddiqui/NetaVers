@@ -5,7 +5,7 @@
     "scheme": "netavers",
     "version": "0.1.0",
     "orientation": "portrait",
-    "userInterfaceStyle":  "automatic"
+    "userInterfaceStyle":  "automatic",
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet":  true
