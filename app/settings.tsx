@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ScrollView, StyleSheet, Text, View,  Switch, Pressable, <picture></picture> } from  "react-native";
+import { ScrollView, StyleSheet, Text, View, Switch, Pressable } from "react-native";
 import { Drawer } from "expo-router/drawer";
 
 export default function SettingsScreen() {
