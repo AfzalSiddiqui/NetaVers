@@ -3,7 +3,7 @@
     "name": "NetaVers",
     "slug": "netavers",
     "scheme": "netavers",
-    "version": "2.8.9",
+    "version": "3.8.9",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
